@@ -3,11 +3,11 @@ by Christopher Saunders
 topher@tophersaunders.com
 ==========================
 
-A bash script to help sound designers showcase a large number of audio files online. 
+Script to help sound designers sort, upload and format a large number of soundfiles. 
 
 A bash script that (1) encodes a whole folder of .aif into mp3, ogg; 
-                   (2) places them into appropriate folders; 
-                   (3) creates an html table containing <audio> tags and download links to the aif. 
+                   (2) sorts them into appropriate folders; 
+                   (3) via pipe - writes an html table containing <audio> tags and download link to aif. 
 
 ========================================================================================================
 
