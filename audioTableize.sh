@@ -10,10 +10,7 @@
 echo "<table><tr>
 	  <th>Name</th><th>Listen</th><th>Download</th>
 	  </tr><tr>"
-mkdir -p "mp3"
-mkdir -p "ogg"
-mkdir -p "aif-24"
-mkdir -p "aif-16"
+
 
 
 COUNTER=0
@@ -42,6 +39,10 @@ CHECK=0
 		        ext=""
 		    fi
 		done
+		mkdir -p "mp3"
+		mkdir -p "ogg"
+		mkdir -p "aif-24"
+		mkdir -p "aif-16"
 		mv "$base.mp3" "mp3/$base.mp3"
 		mv "16$base.ogg" "ogg/$base.ogg"
 		cp "$base.aif" "aif-24/$base.aif"
