@@ -19,7 +19,7 @@ mkdir -p "aif-16"
 COUNTER=0
 CHECK=0
 
-	for f in *$1
+	for f in *
 	do 
 		let COUNTER=$COUNTER+1
 		let CHECK=$COUNTER%2
@@ -49,11 +49,11 @@ CHECK=0
 
 
 		echo  "<td>$base</td>
-			   <td><audio controls="controls" preload="none">
-			   <source src="mp3/$base.mp3" type="audio/mpeg" />
-  			   <source src="mp3/$base.ogg" type="audio/ogg" />
+			   <td><audio controls=\"controls\" preload=\"none\">
+			   <source src=\"mp3/$base.mp3\" type="audio/mpeg" />
+  			   <source src=\"mp3/$base.ogg\" type="audio/ogg" />
 			   </audio></td>
-			   <td><a href="aif-24/$base.aif">$base.aif</a></td>
+			   <td><a href=\"aif-24/$base.aif\">$base.aif</a></td>
 			   "
 		fi
 	done
