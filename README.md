@@ -11,7 +11,7 @@ A bash script that (1) encodes a whole folder of .aif into mp3, ogg;
 
 ========================================================================================================
 
-usage ./audioTableize.sh *.aif > test.html
+$ ./audioTableize.sh *.aif > test.html
 
 This will encode every .aif file into both .mp3 and ogg, 
 organize the audio files into 3 folders(/mp3, /aif, /ogg)
