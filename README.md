@@ -17,7 +17,7 @@ This will encode every .aif file into both .mp3 and ogg,
 organize the audio files into 3 folders(/mp3, /aif, /ogg)
 and create an unformatted html file with table tags and stuff.
 
-Dependencies 
+###Dependencies 
 
 1. [libsndfile](http://www.mega-nerd.com/libsndfile/#Download)
 2. [lame](http://lame.sourceforge.net/)
